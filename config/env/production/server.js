@@ -1,3 +1,3 @@
 module.exports = ({ env }) => ({
-  url: env("EXTERNAL_URL"),
+  url: env("RENDER_EXTERNAL_URL"),
 });
