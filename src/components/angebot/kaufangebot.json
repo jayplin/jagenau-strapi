@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_angebot_kaufangebots",
+  "info": {
+    "displayName": "Kaufangebot",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Merkmale": {
+      "type": "component",
+      "repeatable": true,
+      "component": "textliste.text-liste"
+    },
+    "StripePriceID": {
+      "type": "string"
+    },
+    "Kaufkanal": {
+      "type": "enumeration",
+      "enum": [
+        "Stripe",
+        "Email"
+      ],
+      "required": true
+    }
+  }
+}

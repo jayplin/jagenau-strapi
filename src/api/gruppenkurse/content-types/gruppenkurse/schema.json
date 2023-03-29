@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "gruppenkurses",
+  "info": {
+    "singularName": "gruppenkurse",
+    "pluralName": "gruppenkurses",
+    "displayName": "Gruppenkurse"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Angebot": {
+      "displayName": "Kaufangebot",
+      "type": "component",
+      "repeatable": true,
+      "component": "angebot.kaufangebot"
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Beschreibung": {
+      "type": "text"
+    }
+  }
+}

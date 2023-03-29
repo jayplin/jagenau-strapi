@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_lernangebot_angebots",
+  "info": {
+    "displayName": "Angebot",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Merkmale": {
+      "displayName": "Text Liste",
+      "type": "component",
+      "repeatable": true,
+      "component": "textliste.text-liste"
+    }
+  }
+}

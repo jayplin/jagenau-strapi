@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_textliste_text_listes",
+  "info": {
+    "displayName": "Text Liste",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Value": {
+      "type": "text"
+    }
+  }
+}

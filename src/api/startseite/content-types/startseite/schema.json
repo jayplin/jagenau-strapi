@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "startseites",
+  "info": {
+    "singularName": "startseite",
+    "pluralName": "startseites",
+    "displayName": "Startseite",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Beschreibung": {
+      "type": "text"
+    },
+    "Titelfoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Lernangebotbeschreibung": {
+      "type": "text"
+    },
+    "Newsletterbeschreibung": {
+      "type": "text"
+    },
+    "Lernangebote": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lernangebot.angebot"
+    },
+    "Testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "textliste.text-liste"
+    }
+  }
+}
